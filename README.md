@@ -77,9 +77,10 @@ pip install -r requirements.txt
 # Set up environment variables (OpenCorporates API key, database URL)
 cp .env.example .env
 
+# Run migrations and start the server
+python main.py
+```
+
 ## other
 [![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](https://opendatacommons.org/licenses/odbl/)
 [![License: MIT](https://img.shields.io/badge/Code%20License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
-# Run migrations and start the server
-python main.py
