@@ -1,28 +1,13 @@
 # Asia Shell Company Risk Mapping Platform
 
 **Expose opaque corporate structures across Asia through open data.**
-
----
-
-## Project Identity & Status
-
 **This project is created and maintained by Xiaonan – an independent developer and researcher, not an NGO or registered organisation.**
-
-I am applying to the OpenCorporates Public Benefit program as an **individual researcher/developer** working on a non‑commercial, open‑source shell company risk mapping platform for Asia. My project fully aligns with the program’s eligibility criteria for academics and independent researchers.
-
-- All source code is released under an open‑source license (MIT).
-- All derived risk indicators and aggregated datasets will be published under the ODbL license.
-- The platform will remain completely free for journalists, regulators, and the public – no paywalls, no advertising, no commercial use.
-
-For verification purposes, this GitHub repository serves as documented evidence of the project’s public‑benefit nature. If additional proof is required, I am happy to provide personal identification or a signed research statement.  
-
-*This project is solely dedicated to promoting corporate transparency in Asia.*
 
 ---
 
 ## Overview
 
-This is an **open‑source, non‑commercial** web platform that identifies and visualises possible shell companies and hidden corporate networks across Asia.  
+This is an **open‑source, non‑commercial** web platform that identifies and visualises possible shell companies and hidden corporate networks.  
 As an independent developer, I built this tool to help journalists, regulators, and the public detect red flags such as:
 
 - Densely shared registered addresses
@@ -40,7 +25,7 @@ All derived data and source code are released **free of charge** to promote tran
 ## Features
 
 - 🔍 **Risk indicators** for each company (address density, age, status anomalies)  
-- 🌏 **Geographic heatmap** of potentially risky entities across Asia  
+- 🌏 **Geographic heatmap** of potentially risky entities
 - 🕸️ **Network graph** showing shared directors / addresses  
 - 📊 **Open data export** (CSV/JSON) – all aggregated results under ODbL  
 - 🔓 **No paywall** – everything is free for everyone, no commercial use intended
@@ -63,24 +48,16 @@ The source code of the web application is licensed under the **MIT License**.
 - Backend: Python (FastAPI) / PostgreSQL + PostGIS  
 - Data pipeline: Apache Airflow (scheduled API calls)  
 
-## Getting Started
+---
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/asia-shell-company-risk.git
-cd asia-shell-company-risk
+## Project Identity & Status
 
-# Install dependencies (example for backend)
-cd backend
-pip install -r requirements.txt
+- All source code is released under an open‑source license (MIT).
+- All derived risk indicators and aggregated datasets will be published under the ODbL license.
+- The platform will remain completely free for journalists, regulators, and the public – no paywalls, no advertising, no commercial use.
 
-# Set up environment variables (OpenCorporates API key, database URL)
-cp .env.example .env
 
-# Run migrations and start the server
-python main.py
-```
+*This project is solely dedicated to promoting corporate transparency.*
 
-## other
 [![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](https://opendatacommons.org/licenses/odbl/)
 [![License: MIT](https://img.shields.io/badge/Code%20License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
